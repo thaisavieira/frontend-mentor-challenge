@@ -1,3 +1,9 @@
+@media screen and (min-width: 1440pxs) {
+  .grid-container {
+    align-items: center;
+    height: 100vh;
+  }
+}
 body {
   margin-block: 2em;
   height: 100%;

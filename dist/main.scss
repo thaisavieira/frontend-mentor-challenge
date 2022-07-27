@@ -1,3 +1,4 @@
+@use "./media1440px";
 // Typography
 $font-body: 'Montserrat', sans-serif;
 $font-title:'Fraunces', serif;
@@ -25,6 +26,12 @@ body {
 .grid-container{
   background-color: $neutral-white;
   border-radius: 13px;
+  height:621px; 
+  width:348px;
+}
+
+.product{
+  width: 348px;
 }
 
 .card-img-top{
@@ -132,4 +139,3 @@ body {
   background-color: $primary-dark-cyan;
   color:$neutral-white;
  }
-
